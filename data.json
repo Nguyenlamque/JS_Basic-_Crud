@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "title": "Những chú bé đần",
+      "author": "Nguyễn Lâm Quế",
+      "age": "24",
+      "id": 1
+    },
+    {
+      "title": "Thuật Hùng Biện ",
+      "author": "Nguyễn Trường Xuân",
+      "age": "22",
+      "id": 2
+    },
+    {
+      "title": "Người Nam Châm",
+      "author": "Hoàng Hồng Nhung",
+      "age": "19",
+      "id": 3
+    },
+    {
+      "title": "Hml/css3 ",
+      "author": "Nguyễn Lâm Quế",
+      "age": "23",
+      "id": 4
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

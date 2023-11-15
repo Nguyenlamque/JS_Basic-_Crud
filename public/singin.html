@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mx-auto col-4 mt-5 ">
+    <h3 class="text-center mx-auto d-block text-success">Đăng nhập</h3>
+<form >
+    <div class="mb-4">
+      <label for="" class="form-label">User name</label>
+      <input type="text" name="" id="user" class="form-control" placeholder="" aria-describedby="helpId">
+     
+    </div>
+
+    <div class="mb-4">
+        <label for="" class="form-label">paswword</label>
+        <input type="text" name="" id="paswword" class="form-control" placeholder="" aria-describedby="helpId">
+      </div>
+      <button type="button" id="btn_sm" class=" btn btn-primary mx-auto d-block">Đăng nhâp</button>
+    </form>
+      
+    </div>
+
+<script>
+    const btn_sm = document.getElementById("btn_sm")
+const admin = document.getElementById("user")
+const password = document.getElementById("paswword")
+btn_sm.addEventListener("click", () => {
+ if(admin.value ==="admin" && password.value ==="password"){
+    alert("ok")
+  window.location.href= "index.html"
+ }
+ else{
+    alert('bạn nhập đã nhập sai tài khoản');
+ }
+})
+</script>
+</body>
+</html>
